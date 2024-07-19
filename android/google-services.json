@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "972131330382",
+    "firebase_url": "https://meshplusplus-app.firebaseio.com",
+    "project_id": "meshplusplus-app",
+    "storage_bucket": "meshplusplus-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972131330382:android:b981c68b4f47ec9f03d61f",
+        "android_client_info": {
+          "package_name": "com.meshplusplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972131330382-akfpv0rhje36522c6dd4qsq4sgpmd9pb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtVAof0vlD1CgoKvAoEdaWG99SG0fEXDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972131330382-akfpv0rhje36522c6dd4qsq4sgpmd9pb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "972131330382-ds4bcpf4akfi68fo86o1cvgnempchef0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.meshplusplus.mesh",
+                "app_store_id": "1463934725"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

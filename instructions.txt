@@ -1,0 +1,27 @@
+To successfully compile the app,
+
+1. Use "yarn install" to install node_modules. Don't delete the existing lock file. 
+
+2. You may have to change permission to the node_modules folder to avoid android build errors, in my case I just give them 777 permission.
+
+3. Run "npm run patch:node_modules" to patch some files in node_modules.
+
+4. Run "cd android; ./gradlew clean; cd .." to clean android build. 
+
+5. Run "npm run build:android" to build android, do not use sudo otherwise Hermesc will return error 5. 
+
+6. Go to ios folder, run "pod install".
+
+7. Run "npm run patch:ios" to patch some Pod files, you may run into permission issue, just sudo it.
+
+8. Run "npm run build:ios" to rebuild the jsbundle. 
+
+9. Now the code should build in mesh.xcworkspace, should probably clean your build
+
+To create a debug APK:
+
+1. Run "yarn run clean:android" command.
+2. Run "yarn run build:androidBundle" command.
+3. Run "yarn run build:androidDebug" command.
+
+All 3 scripts 'clean:android', 'build:androidBundle' & 'build:android:Debug' are in the package.json file.

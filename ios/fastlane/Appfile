@@ -1,0 +1,8 @@
+app_identifier("com.meshplusplus.mesh") # The bundle identifier of your app
+apple_id("vlad@springsapps.com") # Your Apple email address
+
+itc_team_id("120017488") # App Store Connect Team ID
+team_id("783UCVBARX") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

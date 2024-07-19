@@ -1,0 +1,43 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["@react-native-community", "airbnb", "plugin:prettier/recommended", "prettier/react", "eslint-config-prettier"],
+  "plugins": ["react", "react-native", "jsx-a11y", "import", "eslint-plugin-prettier", "eslint-plugin-react"],
+  "rules": {
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "import/prefer-default-export": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prefer-stateless-function": [0],
+    "react/jsx-indent": [0],
+    "react/sort-comp": [0],
+    "react/destructuring-assignment": [0],
+    "react/prop-types": 0,
+    "react/forbid-prop-types": [0],
+    "react/no-unescaped-entities": ["error", { "forbid": [">", "}"] }],
+    "quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": false }],
+    "jsx-quotes": ["error", "prefer-double"],
+    "camelcase": "off",
+    "react/state-in-constructor": [0],
+    "no-use-before-define": "off",
+    "no-underscore-dangle": ["error", { "allowAfterThis": true }],
+    "no-restricted-globals": [0],
+    // "semi": ["error", "always"],
+    "react-native/no-unused-styles": 2,
+    "react-native/no-raw-text": 2,
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "all",
+        "singleQuote": true,
+        "jsxSingleQuote": false,
+        "printWidth": 120,
+        "semi": false,
+        "jsxBracketSameLine": true
+      }
+    ]
+  },
+  "env": {
+    "react-native/react-native": true,
+    "jest": true,
+    "es6": true
+  }
+}
